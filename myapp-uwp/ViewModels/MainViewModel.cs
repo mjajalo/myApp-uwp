@@ -113,11 +113,13 @@ namespace myapp_uwp.ViewModels
         private async void OpenFile()
         {
             FileOpenPicker fileOpenPicker = new FileOpenPicker();
-            fileOpenPicker.ViewMode = PickerViewMode.List;
-            fileOpenPicker.FileTypeFilter.Add(".pdf");
+            fileOpenPicker.ViewMode = PickerViewMode.List;            
             fileOpenPicker.FileTypeFilter.Add(".docx");
             fileOpenPicker.FileTypeFilter.Add(".doc");
+            fileOpenPicker.FileTypeFilter.Add(".pdf");
             fileOpenPicker.FileTypeFilter.Add(".pptx");
+            fileOpenPicker.FileTypeFilter.Add(".xls");
+            fileOpenPicker.FileTypeFilter.Add(".xlsx");
             StorageFile file = await fileOpenPicker.PickSingleFileAsync();
             if (file != null)
             {               
