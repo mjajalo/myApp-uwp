@@ -1,5 +1,1 @@
--PDF viewer app made using Universal Windows Platform (UWP) using PDFTron's UWP SDK.
--Restore the nuget packages and build using visual studio to run the application.
-Features:
-  -View PDF, and office documents (word, excel, and powerpoint) documents.
-  -PDFTron's toolkit for text selection features.
+PDF viewer app made using Universal Windows Platform (UWP) using PDFTron's UWP SDK. Allows the ability to view PDF and office documents (word, excel, and powerpoint). Alows uses PDFTron's toolkit for text selection features. To run the project restore the nuget packages and build using visual studio.
